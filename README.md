@@ -46,17 +46,20 @@ Este script coleta informações de dispositivos de rede (roteadores ou switches
 ## Execute o script:
 
 Windows:
-py Collect_info_R&S.py
+
+`py Collect_info_R&S.py´
 
 Linux:
-python3 Collect_info_R&S.py
+
+`python3 Collect_info_R&S.py´
 
 
 - Os logs coletados serão salvos em pastas nomeadas com o IP de cada dispositivo, com arquivos .txt contendo os resultadosdos comandos.
 - Exemplo de Saída:
+```
 192.168.1.1/
 └── 192.168.1.1.txt
-
+```
 #### Instalando as Dependências
 
 Antes de executar o script, instale as dependências necessárias:
